@@ -17,14 +17,15 @@ JavaScript is a prototype-based with first-class functions, making it a multi-pa
 JavaScript alongside HTML and CSS is one of the three essential technologies of World Wide Web content production; the majority of websites employ it and it is supported by modern web browsers without plug-ins.
 
 Some cool JavaScript Projects:
+
 Digital experience: http://hellomonday.com/
 Web game: http://multeor.com/
 Analyzing and displaying data: https://tweetping.net/
 
 The three most popular JavaScript projects on Github.com are:
-1. airbnb
-2. GitbookIO
-3. uprock
+1.airbnb
+2.GitbookIO
+3.uprock
 
 
 Resources
