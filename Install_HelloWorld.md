@@ -11,13 +11,13 @@ There are two options to run programs that you write:
 Create HTML page 
 Put it to the same folder with .JS file 
 In HTML have a <script tag that loads your code  
-<html> 
-<head> 
-<script src="myjsfile.js"></script> 
-</head> 
-<body> 
-</body> 
-</html> 
+	<html> 
+	<head> 
+	<script src="myjsfile.js"></script> 
+	</head> 
+	<body> 
+	</body> 
+	</html> 
 Open this HTML file in Chrome (drag and drop, double click) 
 2. Using sublime text via build systems features  
 Built system is described on JSON file with .sublime-build extension. Create new one by going to Tools > Build System > New Build System and paste this code: 
@@ -32,14 +32,14 @@ The // is used to start comments in JavaScript programming. To write "Hello, Wor
 //JavaScript
 <html> 
 <body> 
-	<p>Header...</p>
-	<script>
+	<p>Header...</p>...
+	<script>...
 		altert('Hello, World!')
-	</script>
+	...</script>
 	
 	<p>...Footer</p>
-</body> 
-</html> 
+...</body> 
+...</html> 
  
 Sources
 
