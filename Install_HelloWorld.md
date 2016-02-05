@@ -35,5 +35,7 @@ The // is used to start comments in JavaScript programming. To write "Hello, Wor
 Sources
 
 http://lifehacker.com/five-best-text-editors-1564907215 Accessed Feb.5, 2016
+
 https://pawelgrzybek.com/javascript-console-in-sublime-text/ Accessed Feb.5, 2016
+
 http://javascript.info/tutorial/hello-world Accessed Feb. 5, 2016
