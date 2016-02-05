@@ -19,7 +19,6 @@ In HTML have a <script tag that loads your code
 	</body> 
 	</html> 
 
-perl -v
 Open this HTML file in Chrome (drag and drop, double click) 
 2. Using sublime text via build systems features  
 Built system is described on JSON file with .sublime-build extension. Create new one by going to Tools > Build System > New Build System and paste this code: 
