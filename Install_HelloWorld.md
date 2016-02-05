@@ -30,7 +30,7 @@ Create JavaScript file, code script and click Cmd + B (Mac) or F7 (Windows). Or 
 The // is used to start comments in JavaScript programming. To write "Hello, World!", the progrom looks like this:
 
 //JavaScript
-<html> ...<body> ...<p>Header...</p>...<script>...altert('Hello, World!')...</script>...<p>...Footer</p>...</body> ...</html> 
+<html><body><p>Header</p><script>altert('Hello, World!')</script><p>Footer</p></body></html> 
  
 Sources
 
