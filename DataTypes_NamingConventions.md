@@ -11,14 +11,15 @@ Symbol (new in ECMAScript 6)
 6. and Object 
  
 Examples: 
-
+```JavaScript
 var length = 16;                               // Number 
 var lastName = "Johnson";                      // String 
 var cars = ["Saab", "Volvo", "BMW"];           // Array 
 var x = {firstName:"John", lastName:"Doe"};    // Object 
-
+```
 
 Variables in JavaScript are like those in any other language; you use them to hold values that can be accessed in different places in the code. The identifiers are unique and consist of a combination of letter, digits, underscores and dollar signs. JavaScript does account for upper and lower case characters. MUST Begin with a character, dollar sign, or underscore: 
+
 _variable 
 _ _variable 
 variable 
