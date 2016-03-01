@@ -1,4 +1,4 @@
-<h1>JavaScript Control FLow</h1>
+<h1>JavaScript Control Flow</h1>
 
 
 <h2>One condition: if/else statement</h2>
