@@ -187,7 +187,7 @@ debugger;
 only if debugger is action, this is the breakpoint. 
 
 
-Sources 
+<h2>Sources</h2>
 
 http://www.w3schools.com/js/js_switch.asp Accessed Feb 29, 2016
 
