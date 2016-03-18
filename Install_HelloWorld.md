@@ -12,14 +12,13 @@ Put it to the same folder with .JS file
 In HTML have a <script tag that loads your code  
 
 
-
-''	<html> 
+```JavaScript	<html> 
 	<head> 
 	<script src="myjsfile.js"></script> 
 	</head> 
 	<body> 
 	</body> 
-	</html> ''
+	</html> '''
 
 Open this HTML file in Chrome (drag and drop, double click) 
 2. Using sublime text via build systems features  
