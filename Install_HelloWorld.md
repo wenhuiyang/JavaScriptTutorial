@@ -3,7 +3,6 @@ Installation
 JavaScript is plain text. You can use any text editor to read/write/edit plain text. Programmers' text editors will do syntax highlighting and checking. Some examples are: Sublime Text,  Notepad++, Atom, Brackets, Light Table, Vim. All text editors can be downloaded on any operating system (Windows, Mac, Unix/Linux) 
 You need to enable JavaScript on your web browser where it is executed. Follow these steps to enable JavaScript on your web browser: http://www.enable-javascript.com/ 
  
-Creating and Running Perl 
  
 There are two options to run programs that you write: 
 
@@ -11,13 +10,16 @@ There are two options to run programs that you write:
 Create HTML page 
 Put it to the same folder with .JS file 
 In HTML have a <script tag that loads your code  
-	<html> 
+
+
+
+''	<html> 
 	<head> 
 	<script src="myjsfile.js"></script> 
 	</head> 
 	<body> 
 	</body> 
-	</html> 
+	</html> ''
 
 Open this HTML file in Chrome (drag and drop, double click) 
 2. Using sublime text via build systems features  
