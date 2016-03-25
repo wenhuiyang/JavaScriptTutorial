@@ -2,7 +2,7 @@
 
 A <b>function</b> is a JavaScript procedure- a set of statements that performs a task or calculates a value. To use a function, you must define it somewhere in the scope from which you want to call it. 
 
-<b>Function Declarations</b>
+<b><h3>Function Declarations Syntax</h3></b>
 A function declaration consists of:
 -	The name of the function
 -	A list of arguments to the function, enclosed in parentheses and separated by commas
@@ -58,6 +58,7 @@ returns [0,1,8,125,1000]
 A function is a “subprogram” that can be called by code external or internal to the function. In JavaScript, functions are first-class objects because they can have properties and methods just like any other object. But what is different is that functions can be called. Every function in JavaScript is a Function Ojbect. Function always returns a value whereas a procedure might not.
 Functions must be in scope when they are called but the function declaration can appear below the call in the code.
 
+<b><h3>Recursion</h3></b>
 JavaScript supports recursive functions, that call itself. 
 This is an example:
 
@@ -79,7 +80,7 @@ else {
 }
 var answer = factorial (10);
 ```
-
+<b><h3>Parameters and returns</h3></b>
 JavaScript functions can accept multiple parameters that are of different data types 
 Parameter rules:
 -	function definitions do not specify data types for parameters
@@ -89,9 +90,11 @@ JavaScript is a dynamically typed language, it can be passed different data type
 
 JavaScript functions cannot return multiple values at the same time. It can return an array containing all values. 
 
+<b><h3>Scope and Global Variables</h3></b>
 If you declare a variable x in the main body and then declare a value of the same name inside a loop, this is a conflict because you are overriding the original variable. Cannot have two variables of the same name in the same scope.
 
 If the other x is inside a function, it is possible and would not cause a conflict because it is in a different scope.
+
 
 A variable declared outside a function becomes GLOBAL. A global variable has global scope: All scripts and functions on a web page can access it. This is an example:
 
@@ -103,10 +106,10 @@ function myFunc () {
 } 
 ```
 
+<b><h3>Passing by Value and Reference</h3></b>
 
 Primitive parameters such as a number, are passed to function by value; it is passed to the function, the function changes the value of the parameter, this change is not changed globally
 Non-primitive values such as an Object as a parameter are passed by reference; if the function changes the object’s properties, it changes the original value and are visible outside the function.
-
 
 Take a look at how JavaScript passes its variables with this example:
 
@@ -115,6 +118,9 @@ var x = [“x”, “y”, “z”];
 var y = [“a”, “b”, “c”];
 x = y;
 y [1] = “u”;
+```
+The output is:
+```JavaScript
 print x;  // x will print [“a”,”u”,”c”]
 print y;  // y will print [“a”,”u”,”c”]
 ```
