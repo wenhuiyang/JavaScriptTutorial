@@ -94,6 +94,7 @@ If you declare a variable x in the main body and then declare a value of the sam
 If the other x is inside a function, it is possible and would not cause a conflict because it is in a different scope.
 
 A variable declared outside a function becomes GLOBAL. A global variable has global scope: All scripts and functions on a web page can access it. This is an example:
+
 ```JavaScript
 var name =”Bob”;
 //any code here can use name
@@ -116,11 +117,10 @@ x = y;
 y [1] = “u”;
 print x;  // x will print [“a”,”u”,”c”]
 print y;  // y will print [“a”,”u”,”c”]
-``
+```
 
 
 <h1>Sources</h1>
-
 
 https://msdn.microsoft.com/en-us/library/wwbyhkx4(v=vs.94).aspx Accessed March 23, 2016 
 
